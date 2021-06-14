@@ -1,0 +1,56 @@
+.btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 2px;
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.btn-yellow {
+  background-color: #990;
+}
+
+.btn.btn-blue {
+  background-color: #33a;
+}
+
+.btn.btn-green {
+  background-color: #3c3;
+}
+
+.btn.btn-purple {
+  background-color: #939;
+}
+
+.btn.btn-pink {
+  background-color: #c69;
+}
+
+.btn.btn-orange {
+  background-color: #f93;
+}
+
+.btn.btn-brown {
+  background-color: #952;
+}
+/*# sourceMappingURL=app.css.map */
